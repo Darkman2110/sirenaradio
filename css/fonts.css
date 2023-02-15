@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@font-face{
+font-family: Birds;
+src: url("../fuentes/Birds of Paradise-normal.ttf")
+}
+
+@font-face{
+	font-family: Rale;
+	src: url("../fuentes/Raleway-Regular.ttf")
+}

@@ -1,0 +1,44 @@
+.dark-wrapper.theme-selector .inner.clearfix .nav {
+    background-color: #252121;
+    width: 350px;
+    float: left;
+}
+
+.dark-wrapper.theme-selector {
+    height: 40px;
+    background-color: #161415;
+    width: 400px;
+
+
+}
+
+.inner.clearfix .nav li {
+    display: inline;
+}
+	
+.nav li .active {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    float: none;
+    margin-bottom: 0px;
+    width: 400px;
+}
+.nav li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 40%;
+    height: auto;
+}
+.nav li .active:hover {
+	color:blueviolet
+}                  
+ul li a:hover { 
+	color:blueviolet
+}

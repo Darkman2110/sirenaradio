@@ -1,0 +1,160 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    color: #FBFBFB;
+    background-image: url(../imagenes/fondo.jpg);
+}
+#contenedor {
+    width: 1000px;
+    height: 900px;
+    border-style: none;
+    margin: auto;
+}
+#contenedor #header {
+    width: 990px;
+    height: 190px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#contenedor #secciones {
+    width: 1000px;
+    height: 420px;
+    margin-bottom: 20px;
+}
+#contenedor #header #logo {
+    width: 100%;
+    height: 190px;
+    margin-left: 5px;
+    top: auto;
+
+    margin: ;
+}
+#header #logo img {
+    border-radius: 100px;
+}
+#secciones #video p {
+    color: #F4EAEA;
+    font-size: xx-large;
+    font-family: Birds;
+    text-align: center;
+    margin-top: 30px;
+}
+#contenedor #secciones #video {
+    width:"auto";
+    height: 65px;
+    float: left;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+#secciones #video #player {
+    width: 640px;
+    height: 360px;
+    background-color: #F02528;
+    border: 10px solid #1A07C4;
+    border-radius: 20px;
+}
+#contenedor #secciones #chat {
+    width: 300px;
+    height: 380px;
+    right: 10px;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-width: 0px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#secciones #chat p {
+    text-align: center;
+    color: #FCFCFC;
+    font-family: Birds;
+    font-size: x-large;
+    margin-bottom: 3px;
+}
+#secciones #chat iframe {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
+
+#contenedor #locutores {
+    width: 1000px;
+    height: 125px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -o-border-radius: 20%;
+    -ms-border-radius: 20%;
+    margin-top: 50px;
+}
+#contenedor #locutores p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 250px;
+    width: 60px;
+    margin-bottom: 5px;
+	font-family: Birds;
+}
+#contenedor #reproductor {
+    float: right;
+    width: 350px;
+    height: auto;
+}
+#contenedor #locutores #img1 {
+    float: left;
+    margin-left: 30px;
+}
+#locutores #img1 img {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#contenedor #locutores #img2 {
+    float: left;
+    margin-left: 30px;
+}
+#locutores #img2 img {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#contenedor #locutores #img3 {
+    float: left;
+    padding-left: 0px;
+    margin-left: 30px;
+}
+#locutores #img3 img {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#reloj span #time {
+    color: #3F82D3;
+    margin-left: 180px;
+}
+#contenedor #piepagina {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: x-large;
+    width: 1000px;
+    height: 40px;
+    margin-top: 60px;
+    font-family: Rale;
+}
+#contenedor #Contador {
+    width: 1000px;
+    height: 50px;
+    top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}

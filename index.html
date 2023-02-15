@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="Es">
+<head>
+<meta charset="utf-8">
+<title>Sirena Radio</title>
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+
+<script src="js/clappr.min.js"></script>
+<script type="text/javascript" src="js/clappr.min.js"></script>
+<script src="js/clappr.plugin.js"></script>
+<script src="js/level-selector.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>		
+<link rel="stylesheet" type="text/css" href="css/player.css" />	
+<link rel="stylesheet" type="text/css" href="css/audio-player.css" />
+<script type="text/javascript" src="js/preview.js"></script>	
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.audio-player.js"></script>
+<link rel="stylesheet" type="text/css" id="style" href="css/audio-player/orange.css" />	
+	
+<script src="js/bootstrap.min.css"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/jquery.min.js"></script>		
+<link rel="icon" type="image/png" href="imagenes/icono.png" />
+<style type="text/css">
+body {
+    background-image: url(imagenes/fondo.jpg);
+}
+</style>
+<SCRIPT LANGUAGE="JavaScript">var txt=" BIENVENIDOS A SIRENA RADIO ";var espera=140;var refresco=null;function rotulo_title() {document.title=txt;txt=txt.substring(1,txt.length)+txt.charAt(0);refresco=setTimeout("rotulo_title()",espera);}rotulo_title();</script>   
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+</head>
+
+<body>
+<!-------- Contenedor, Logo ------------->
+<div id="contenedor">
+	<div id="header">
+	  <div id="logo"><img src="imagenes/logo.png" alt=""/></div>
+	</div>
+	
+<!-------- Secciones -------->
+	<div id="secciones">
+		<div id="video">
+			<p>Canal De Videoclips</p>
+			<DIV id="player"></DIV>
+			<script>
+        			var player = new Clappr.Player({
+        			source: 'https://cloudvideo.servers10.com:8081/8004/tracks-v1a1/mono.m3u8',
+                    parentId: '#player',
+                    preload: 'auto',
+                    autoPlay: 'true',
+					mediacontrol: {seekbar:"#00f5ff", buttons: "#00f5ff"},
+					width:"auto",
+                });
+			</script>
+		</div>
+	
+		<div id="chat">
+			<p>Chat Sirena Radio En Vivo</p>
+			<iframe src="https://www5.cbox.ws/box/?boxid=930353&boxtag=hkeY44" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto" style="width: 300px; height: 380px"></iframe>
+		</div>
+	</div>
+	
+<!-------- Locuctoes -------->		
+	<div id="locutores">
+		<p> Locuctores</p> 
+		<div id="img1"><img src="imagenes/dj_javi.png" width="160" height="80" alt=""/></div>
+		<div id="img2"><img src="imagenes/dj_homis.png" width="160" height="80" alt=""/></div>  
+		<div id="img3"><img src="imagenes/dj_lines.png" width="160" height="80" alt=""/></div>
+		<div id="reloj">
+		  <script type="text/javascript">setInterval(function(){date=new Date(),h=date.getHours(),m=date.getMinutes(),s=date.getSeconds(),h=(h<10)?'0'+h:h,m=(m<10)?'0'+m:m,s=(s<10)?'0'+s:s,document.getElementById('time').innerHTML=h+':'+m+':'+s;},1000);</script>
+		<span style="color:#585858; font-family:'Orbitron', sans-serif; font-size:25pt; font-weight:bold; border:0px solid #e1d4ae; background:#00000000; padding:5px;">
+		<span id="time">00:00:00</span>
+		</span>
+		</div>
+	
+<!-------- Reproductor -------->	
+	</div>
+	<div id="reproductor">
+		<audio id="audio1" class="HTML5AudioPlayer" width="340" autoplay="boolean">
+					<source src="https://stream-51.zeno.fm/tes6vu5mephvv?zs=-RgS6QGqQqKabuZZ-Nq0Ug" type="audio/mpeg" />
+					<source src="music/song.ogg" type="audio/ogg" />
+		</audio>	
+	</div>
+<!-------- Piel de Pagina -------->	
+	<div id="piepagina">Sirenaradio.webcindario.com © 2017 Todos los derechos reservados</div>
+<!-------- Contador -------->	
+	<div id="Contador"><script type="text/javascript" src="https://contadores.miarroba.com/ver.php?id=681440"></script></div>
+</div>
+</body>
+</html>
+	
+
